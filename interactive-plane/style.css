@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+#content-div {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: "Exo 2", sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+button {
+  font-family: "Space Mono", monospace;
+  font-size: 25px;
+  color: white;
+  background: transparent;
+  border: 1px solid whitesmoke;
+  padding: 0 1rem 0 1rem;
+  /* border-radius: 10px; */
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
+}
